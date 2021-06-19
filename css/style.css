@@ -37,6 +37,7 @@ li{
     background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/bg.svg);
 	background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 .about, .services, .portfolio, .contact{
@@ -297,6 +298,9 @@ li{
 }
 .carousel-links a:hover > i{
 	color: var(--primary-color);
+}
+.carousel-indicators{
+	width: 85%;
 }
 .carousel-indicators .glider-dot {
 	display: block;
